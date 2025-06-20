@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Jardín Botánico "Especies del Mundo"</title>
+<link rel="stylesheet" href="jardin.css">
+<!-- Enlace a estilos CSS en línea para ejemplo -->
+
+</head>
+<body>
+
+<header>
+  <h1>Jardín Botánico "Especies del Mundo"</h1>
+</header>
+
+<!-- Navegación -->
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#areas">Áreas</a>
+  <a href="#visitar">Visitar</a>
+  <a href="otros.html">Otros sitios</a> <!-- enlace a otra página ficticia -->
+</nav>
+
+<main>
+  <!-- Sección: Sobre el jardín -->
+  <section id="sobre">
+    <h2>¿Qué es el Jardín Botánico?</h2>
+    <p>Un espacio dedicado a la conservación y difusión de la riqueza vegetal del mundo. Ofrecemos actividades educativas, áreas temáticas y eventos culturales relacionados con las plantas y la naturaleza.</p>
+    <img src="c:\jardin botanico\imagen5.jpeg" alt="Vista del jardín" />
+  </section>
+
+  <!-- Sección: Áreas del jardín - presentación en tarjetas -->
+  <section id="areas">
+    <h2>Explora Nuestras Áreas</h2>
+    <div class="links-grid">
+           <div class="card-link" onclick="window.location.href='#arboles';">
+           <h3>Jardin de plantas</h3>
+        <p>Plantas y árboles de clima cálido y húmedo.</p>
+      </div>
+      <div class="card-link" onclick="window.location.href='#arboles';">
+       <h3>Jardín de Cactus</h3>
+        <p>Suculentas y cactus de diferentes regiones.</p>
+      </div>
+      <div class="card-link" onclick="window.location.href='#arboles';">
+        <h3>Área de Árboles</h3>
+        <p>Especies centenarias y ejemplares únicos.</p>
+      </div>
+      <div class="card-link" onclick="window.location.href='#invernadero';">
+        <h3>Invernadero</h3>
+        <p>Orquídeas y plantas tropicales en ambientes controlados.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: ¿Dónde estamos? -->
+  <section id="visitar">
+    <h2>Visítanos</h2>
+    <p>Estamos ubicados en Tlacotepec de Benito Juares Puebla ,Santo Nombre.</p>
+    <a href="https://www.bing.com/maps?pglt=2339&q=donde+se+encuentra+cecyte+tlacotepec&cvid=8dfd617f87184bbcb9e9d73a18145926&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQABhAMgYIAhBFGDkyBggDEAAYQDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQgyNjUwajBqMagCALACAA&FORM=ANNTA1&PC=HCTS " target="_blank">
+      Ver en mapa
+    </a>
+    <img src="c:\jardin botanico\imagen6.jpeg" alt="Mapa del jardín" />
+  </section>
+
+  <!-- Sección de contacto ficticia -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes dudas o quieres reservar una visita? Escríbenos:</p>
+    <form style="margin-top:10px; display:flex; flex-direction:column; gap:10px; max-width:400px;">
+      <input type="text" placeholder="Nombre" required style="padding:10px; border-radius:5px; border:1px solid #ccc;">
+      <input type="email" placeholder="Correo Electrónico" required style="padding:10px; border-radius:5px; border:1px solid #ccc;">
+      <textarea rows="4" placeholder="Mensaje" style="padding:10px; border-radius:5px; border:1px solid #ccc;"></textarea>
+      <button type="submit" style="background-color:#4CAF50; color:white; padding:10px; border:none; border-radius:5px; cursor:pointer;">Enviar</button>
+    </form>
+    <a class="boton" href="jardinbotanico.html" onclick="history.back();">otros sitios</a>
+  </section>
+</main>
+ <a class="boton" href="jarbt.html" onclick="history.back();">Regresar a inicio</a>
+<!-- Pie de página -->
+<footer>
+  <p>&copy; 2025 Jardín Botánico "Especies del Mundo". Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

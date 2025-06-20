@@ -1,0 +1,111 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0faf5;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Encabezado Styles */
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  /* Navegación */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #388e3c;
+  }
+
+  nav a {
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #2e7d32;
+  }
+
+  /* Contenido principal */
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  /* Secciones */
+  section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+  }
+
+  /* Imágenes y enlaces */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  /* Enlaces estilo botón */
+  a.boton {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  a.boton:hover {
+    background-color: #388e3c;
+  }
+
+  /* Pie de página */
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  /* Responsividad en móviles y tablets */
+  @media(max-width: 768px){
+    header h1 {
+      font-size: 1.5em;
+    }
+    nav {
+      flex-direction: column;
+    }
+  }
